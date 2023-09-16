@@ -1,4 +1,6 @@
-# CatiaApi Repository
+# CatiaApi
+
+[image](https://github.com/danielrspereira/CatiaApi/blob/main/CatiaAPI/CatiaLogo.png)
 
 ## Introduction
 
