@@ -17,5 +17,5 @@ jobs:
         
     - name: Create part document
       run: |
-        "C:\Users\danie\source\repos\Catia\Catia\bin\Debug\Catia.exe"
+        "C:\Users\danie\source\repos\Catia\Catia\bin\Debug\Catia.bat"
         
