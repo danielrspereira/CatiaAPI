@@ -1,0 +1,21 @@
+name: Start CATIA
+
+on:
+  workflow_dispatch: 
+
+jobs:
+  start-catia:
+    runs-on: self-hosted
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Start CATIA
+      run: |
+        "C:\Program Files (x86)\Dassault Systemes\B21\intel_a\code\bin\cnext.exe"
+        
+    - name: Create part document
+      run: |
+        "C:\Users\danie\source\repos\Catia\Catia\bin\Debug\Catia.exe"
+        
